@@ -7,6 +7,9 @@ Para tal, foi utilizado SQL para responder perguntas de negócio e o Power BI pa
 ## Datasets
 
 Os dados utilizados são representados em um modelo lógico de banco de dados no formato de tabela, incluindo informações sobre canais de venda, entregas, entregadores, HUBs, pedidos, pagamentos e lojistas.
+O modelo lógico do banco de dados é apresentado no seguinte formato:
+![image](https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/5a848c81-66b8-4e9f-93aa-7477634670f6)
+
 
 ## Perguntas de Negócio
 
