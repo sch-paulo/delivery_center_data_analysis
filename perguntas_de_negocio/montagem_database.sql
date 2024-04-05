@@ -9,8 +9,6 @@ DROP TABLE IF EXISTS payments;
 DROP TABLE IF EXISTS stores;
 DROP TABLE IF EXISTS hubs;
 
-SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
-
 CREATE TABLE channels (
     channel_id INT PRIMARY KEY,
     channel_name VARCHAR(50),
@@ -29,7 +27,6 @@ CREATE TABLE deliveries (
     driver_id INT NULL,
     delivery_distance_meters DECIMAL(10, 2),
     delivery_status VARCHAR(50)
-    /* FOREIGN KEY (driver_id) REFERENCES drivers(driver_id) */
 );
 
 CREATE TABLE hubs (
@@ -57,8 +54,7 @@ CREATE TABLE stores (
     store_segment VARCHAR(50),
     store_plan_price DECIMAL(10, 2),
     store_latitude DECIMAL(9, 6),
-    store_longitude DECIMAL(9, 6)/*,
-    FOREIGN KEY (hub_id) REFERENCES hubs(hub_id)*/
+    store_longitude DECIMAL(9, 6)
 );
 
 CREATE TABLE orders (
@@ -90,14 +86,8 @@ CREATE TABLE orders (
     order_metric_walking_time DECIMAL(10, 2),
     order_metric_expediton_speed_time DECIMAL(10, 2),
     order_metric_transit_time DECIMAL(10, 2),
-    order_metric_cycle_time DECIMAL(10, 2)/*,
-    FOREIGN KEY (store_id) REFERENCES stores(store_id),
-    FOREIGN KEY (channel_id) REFERENCES channels(channel_id),
-    FOREIGN KEY (payment_order_id) REFERENCES payments(payment_order_id),
-    FOREIGN KEY (delivery_order_id) REFERENCES deliveries(delivery_order_id)*/
+    order_metric_cycle_time DECIMAL(10, 2)
 );
-
-
 
 
 ALTER TABLE deliveries
