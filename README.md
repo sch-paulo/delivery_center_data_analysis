@@ -25,10 +25,10 @@ A análise é apresentada em duas frentes:
 No dashboard encontram-se as principais métricas e indicadores que permitem uma compreensão da performance da empresa.
 
 <p align="center">
-  <img src="https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/f877f83c-3edf-490c-8233-0f0221f7ced0" alt="Dashboard">
+  <img src="https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/0e2a0050-ead8-4804-bd1d-378f271dbdc7" alt="Dashboard">
 </p>
 
-### [Confira aqui o dashboard do projeto.](https://app.powerbi.com/view?r=eyJrIjoiYzQzMjFiYWMtNjRlNi00YzEyLTlhMzktZGVjNjgzYjQ4YWQwIiwidCI6IjE0ZDhhZDA3LWFmYWQtNGJmYS05M2QzLWEyMmIxYWFlNWU4NSJ9)
+### [Confira aqui o dashboard do projeto.](https://app.powerbi.com/view?r=eyJrIjoiYWVhNGZiYjEtNTNlMC00MzNhLWEyOGQtMWY1ZDAxNDhkMGRlIiwidCI6IjE0ZDhhZDA3LWFmYWQtNGJmYS05M2QzLWEyMmIxYWFlNWU4NSJ9)
 
 ### Apresentação em PDF:
 Esta apresentação oferece insights aprofundados sobre diversos aspectos da empresa, incluindo análises sobre cidades, hubs, entregas, entregadores, lojas, canais de venda e pagamentos. Além disso, ao final do documento, é elaborado um plano de ação contendo medidas visando o aprimoramento do desempenho geral da empresa.
