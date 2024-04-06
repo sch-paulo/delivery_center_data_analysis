@@ -14,11 +14,22 @@ Os dados utilizados estão distribuídos em sete tabelas, com informações sobr
 
 O modelo lógico do banco de dados é apresentado no seguinte formato:
 
-![image](https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/1bf4a1ff-c85a-4115-924c-c5e7b267bad1)
+<p align="center">
+  <img src="https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/1bf4a1ff-c85a-4115-924c-c5e7b267bad1" alt="Modelo relacional datasets">
+</p>
 
 ## Apresentação
+A análise é apresentada em duas frentes:
 
-A apresentação inclui insights sobre a empresa, cidades, hubs, entregas, entregadores, lojas, canais de venda e pagamentos. Ao final, um plano de ação é proposto com medidas para melhorar o desempenho da empresa.
+### Dashboard Interativo:
+Aqui, encontram-se as principais métricas e indicadores que permitem uma compreensão da performance da empresa.
+
+<p align="center">
+  <img src="https://github.com/sch-paulo/delivery_center_data_analysis/assets/132720763/f877f83c-3edf-490c-8233-0f0221f7ced0" alt="Dashboard">
+</p>
+
+### Apresentação em PDF:
+Esta apresentação oferece insights aprofundados sobre diversos aspectos da empresa, incluindo análises sobre cidades, hubs, entregas, entregadores, lojas, canais de venda e pagamentos. Além disso, ao final do documento, é elaborado um plano de ação contendo medidas visando o aprimoramento do desempenho geral da empresa.
 
 ## Ferramentas
 Para a execução dessa análise, foram utilizadas algumas ferramentas, tais quais:
